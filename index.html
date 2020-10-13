@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clicker</title>
+</head>
+<body>
+    <div id="mainflex">
+        <div class="maincol" id="cookieCont">
+
+            <h1 id="txtCookie">Cookies: 0</h1>
+            <h2 id="txtCps">Cookies per second: 0</h2>
+            <div id="clickitem" onclick="clickCookie();"></div>
+        </div>
+        <div class="maincol">
+            
+        </div>
+        <div class="maincol" id="buyItem">
+            <div onclick="buyitem(1);">
+                <div>
+                    <div class="itemname">Cursor</div>
+                    <div class="itemprice">price: 10c</div>
+                </div>
+                <div>0</div>
+            </div>
+            <div onclick="buyitem(2);">
+                <div>
+                    <div class="itemname">Grandma</div>
+                    <div class="itemprice">price: 100c</div>
+                </div>
+                <div>0</div>
+            </div>
+            <div>
+                <div onclick="buyitem(3);">
+                    <div class="itemname">Mine</div>
+                    <div class="itemprice">price: 1000c</div>
+                </div>
+                <div>0</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
